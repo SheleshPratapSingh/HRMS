@@ -11,7 +11,7 @@ from datetime import datetime, date
 from typing import Dict, Any, List, Tuple
 
 class HRMSAPITester:
-    def __init__(self, base_url: str = "https://hrms-lite.preview.emergentagent.com"):
+    def __init__(self, base_url: str = "https://localhost:5432"):
         self.base_url = base_url
         self.tests_run = 0
         self.tests_passed = 0
